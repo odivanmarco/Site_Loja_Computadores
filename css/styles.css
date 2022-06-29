@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Audiowide", sans-serif;
+}
+
+body{
+    font-size: 1em;
+}
+
+h1{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#area-cabecalho{
+    background-color: #00008b;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#area-menu a:link, #area-menu a:visited{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#area-menu a:hover{
+    color: #f7b600;
+    background-color: #FFF;
+    border-radius: 3px;
+}
+
+#area-menu ul{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+a{
+    padding: 3px 12px;
+    text-decoration: none;
+    color: white;
+}
+
+
+#area-logo{
+    text-align: center;
+}
+
+.amarelo{
+    color: rgb(183, 183, 4);
+}
+
+.branco{
+    color: #FFF;
+}
+
+#footer{
+    background-color: #00008b;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#footer a:hover{
+    color: #f7b600;
+    background-color: #FFF;
+    border-radius: 3px;
+}
+
+.conteudo-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 0.9em;
+    flex-wrap: wrap;
+}
+
+.estamos-localizados{
+    color: white;
+    margin-top: 20px;
+}
+
+.contatos{
+    color: white;
+    width: auto;
+    margin-top: 20px;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    margin-top: 20px;
+}
+
+.links-rapidos{
+    color: white;
+    width: auto;
+    margin-top: 20px;
+}
+
+.icone-rede-social{
+    width: 2em;
+}
+
+.hardware{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-hardware{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.placa{
+    opacity: 0.7;
+}
+
+#formMensagem{
+    margin: 50px;
+    padding: 20px;
+    border: 5px solid rgb(183, 183, 4);
+    border-radius: 6px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+}
+
+.form-style{
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    width: 90%;
+}
+
+.centro-faleconosco{
+    display: flex;
+    justify-content: center;
+}
+
+.centro-home{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.centro-servicos{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centro-contato{
+    margin-top: 20px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.centro-sobre{
+    margin-top: 20px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.rede-social{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1em;
+}
+
+
+.link-rede-social{
+    color: #00008b;
+    text-decoration: underline;
+}
+
+#servicos ul li{
+    list-style-type:circle;
+}
+
+.imagens-hardware{
+    width: 50em;
+}
+
+.label-form{
+    text-align: start;
+    margin-bottom: 3px ;
+    margin-top: 3px;
+}
+
+.input-form{
+    background-color: white;
+    border-radius: 3px;
+    border-color: black;
+    block-size: auto;
+}
+
+.consertos-hardware{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+#imagem-hardware{
+    background-image: url('/img/placa2.jpg');
+    background-size: cover;
+    height: 200px;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 300px;
+}
+
+#imagem2-hardware{
+    background-image: url('/img/notebook.jpg');
+    background-size: cover;
+    height: 200px;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 300px;
+}
+
+.consertos-hardware ul li{
+    color: black;
+    list-style-type:disc;
+}
